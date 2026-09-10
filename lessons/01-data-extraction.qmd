@@ -1,0 +1,20 @@
+# Introduction
+
+Some explanation...
+
+## Example
+
+We first import pandas.
+
+```{python}
+import pandas as pd
+
+print(pd.__version__)
+```
+
+## Loading data
+
+```{python}
+df = pd.read_csv("/Users/heuchennecedric/data-extraction-course/data/graded_Results.csv")
+df.head()
+```

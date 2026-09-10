@@ -1,0 +1,16 @@
+project:
+  type: book
+
+book:
+  title: "Data Extraction with Python"
+  chapters:
+    - index.qmd
+    - lessons/01-data-extraction.qmd
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: false
+
+jupyter: python3

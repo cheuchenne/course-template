@@ -1,0 +1,19 @@
+---
+title: "Data Extraction with Python"
+---
+
+# Welcome
+
+This course introduces the basic techniques used to extract data from files,
+APIs and databases.
+
+## Course structure
+
+The course is organized around executable Python examples.
+
+Students can:
+
+- read the explanations;
+- inspect the Python code;
+- execute the code cells;
+- reproduce the results.
