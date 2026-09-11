@@ -5,7 +5,7 @@ book:
   title: "Course Title"
   chapters:
     - index.qmd
-    - lessons/01-data-extraction.qmd
+    - lessons/01-lesson.qmd
 
 format:
   html:

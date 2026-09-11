@@ -2,26 +2,26 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Extraction with Python",
+    "title": "Course Title",
     "section": "",
-    "text": "1 Welcome\nThis course introduces the basic techniques used to extract data from files, APIs and databases.",
+    "text": "1 Course Title\nThis repository contains the materials for the course.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Extraction with Python</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Title</span>"
     ]
   },
   {
-    "objectID": "index.html#course-structure",
-    "href": "index.html#course-structure",
-    "title": "Data Extraction with Python",
-    "section": "1.1 Course structure",
-    "text": "1.1 Course structure\nThe course is organized around executable Python examples.\nStudents can:\n\nread the explanations;\ninspect the Python code;\nexecute the code cells;\nreproduce the results.",
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "Course Title",
+    "section": "1.1 Course materials",
+    "text": "1.1 Course materials\n\nQuarto documents: lessons/\nJupyter notebooks: notebooks/\nPython scripts: python/\nData: data/\nFigures: figures/",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Extraction with Python</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Title</span>"
     ]
   },
   {
-    "objectID": "lessons/01-data-extraction.html",
-    "href": "lessons/01-data-extraction.html",
+    "objectID": "lessons/01-lesson.html",
+    "href": "lessons/01-lesson.html",
     "title": "2  Introduction",
     "section": "",
     "text": "2.1 Example\nSome explanation…\nWe first import pandas.\nimport pandas as pd\n\nprint(pd.__version__)\n\n3.0.5",
@@ -30,11 +30,11 @@
     ]
   },
   {
-    "objectID": "lessons/01-data-extraction.html#loading-data",
-    "href": "lessons/01-data-extraction.html#loading-data",
+    "objectID": "lessons/01-lesson.html#loading-data",
+    "href": "lessons/01-lesson.html#loading-data",
     "title": "2  Introduction",
     "section": "2.2 Loading data",
-    "text": "2.2 Loading data\n\ndf = pd.read_csv(\"/Users/heuchennecedric/data-extraction-course/data/graded_Results.csv\")\ndf.head()\n\n\n\n\n\n\n\n\nfile_id\ninput_path\noutput_path\nscore\nIdentifiant\nq1_1\nq1_2\nq1_3\nq1_4\nq1_5\n...\nq3_2\nq3_3\nq3_4\nq3_5\nq4_1\nq4_2\nq4_3\nq4_4\nq4_5\nsession_row\n\n\n\n\n0\nExamA_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nA\nC\nC\nAB\nC\n...\nA\nC\nA\nA\nC\nAC\nC\nB\nNaN\nNaN\n\n\n1\nExamB_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nAC\nA\nB\nB\nC\n...\nC\nB\nC\nAC\nA\nC\nBC\nC\nNaN\nNaN\n\n\n2\nExamC_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nBC\nAC\nB\nA\nA\n...\nA\nAC\nAB\nBC\nAC\nB\nA\nC\nNaN\nNaN\n\n\n3\nExamD_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nB\nA\nA\nAB\nAC\n...\nC\nAB\nA\nAB\nA\nB\nA\nC\nNaN\nNaN\n\n\n4\n20260821144631511_A_p1.png\n/Users/heuchennecedric/OMRChecker-master/input...\n/Users/heuchennecedric/OMRChecker-master/outpu...\n9\n'24772301\nA\nC\nC\nAB\nC\n...\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n40.0\n\n\n\n\n5 rows × 26 columns",
+    "text": "2.2 Loading data\n\ndf = pd.read_csv(\"../data/graded_Results.csv\")\ndf.head()\n\n\n\n\n\n\n\n\nfile_id\ninput_path\noutput_path\nscore\nIdentifiant\nq1_1\nq1_2\nq1_3\nq1_4\nq1_5\n...\nq3_2\nq3_3\nq3_4\nq3_5\nq4_1\nq4_2\nq4_3\nq4_4\nq4_5\nsession_row\n\n\n\n\n0\nExamA_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nA\nC\nC\nAB\nC\n...\nA\nC\nA\nA\nC\nAC\nC\nB\nNaN\nNaN\n\n\n1\nExamB_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nAC\nA\nB\nB\nC\n...\nC\nB\nC\nAC\nA\nC\nBC\nC\nNaN\nNaN\n\n\n2\nExamC_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nBC\nAC\nB\nA\nA\n...\nA\nAC\nAB\nBC\nAC\nB\nA\nC\nNaN\nNaN\n\n\n3\nExamD_corrige1.pdf\ninputs/exam_ECGE12320826/grayscale-80-gsm/Exam...\noutputs/exam_ECGE12320826/grayscale-80-gsm/Che...\n0\nNaN\nB\nA\nA\nAB\nAC\n...\nC\nAB\nA\nAB\nA\nB\nA\nC\nNaN\nNaN\n\n\n4\n20260821144631511_A_p1.png\n/Users/heuchennecedric/OMRChecker-master/input...\n/Users/heuchennecedric/OMRChecker-master/outpu...\n9\n'24772301\nA\nC\nC\nAB\nC\n...\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n40.0\n\n\n\n\n5 rows × 26 columns",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
