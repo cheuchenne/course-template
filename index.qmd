@@ -1,19 +1,15 @@
 ---
-title: "Data Extraction with Python"
+title: "Course Title"
 ---
 
-# Welcome
+# Course Title
 
-This course introduces the basic techniques used to extract data from files,
-APIs and databases.
+This repository contains the materials for the course.
 
-## Course structure
+## Course materials
 
-The course is organized around executable Python examples.
-
-Students can:
-
-- read the explanations;
-- inspect the Python code;
-- execute the code cells;
-- reproduce the results.
+- Quarto documents: `lessons/`
+- Jupyter notebooks: `notebooks/`
+- Python scripts: `python/`
+- Data: `data/`
+- Figures: `figures/`

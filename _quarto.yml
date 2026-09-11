@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Data Extraction with Python"
+  title: "Course Title"
   chapters:
     - index.qmd
     - lessons/01-data-extraction.qmd
